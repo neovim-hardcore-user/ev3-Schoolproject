@@ -7,8 +7,8 @@ fn main() -> Ev3Result<()> {
 
     let Ultrasonicsensor = UltrasonicSensor::find()?;
 
-     
-    println!("Current distance: {}", Ultrasonicsensor.get_distance_centimeters().unwrap());
-
+    loop {
+        println!("Current distance: {}", Ultrasonicsensor.get_distance_centimeters().unwrap());
+    }
     Ok(())
 }
