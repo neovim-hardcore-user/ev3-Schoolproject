@@ -5,4 +5,4 @@ target = "armv5te-unknown-linux-musleabi"
 linker = "rust-lld"
 
 [target.armv5te-unknown-linux-gnueabi]
-linker = "/usr/bin/arm-linux-gnueabi-gcc"
+linker = "/usr/bin/arm-linux-gnueabi-g++"
